@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>app/models/Tag.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>34</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/models/User.java</file>
-            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/views/Application/index.html</file>
+            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/Bootstrap.java</file>
+            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/conf/data.yml</file>
             <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/test/BasicTest.java</file>
+            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/models/Tag.java</file>
             <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/controllers/Application.java</file>
-            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/conf/application.conf</file>
+            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/models/Post.java</file>
+            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/views/tags/display.html</file>
+            <file>file:/C:/Users/Baruch/Downloads/Exe%20Programas/Play%20Framework/play-1.3.1/yabe/app/models/Comment.java</file>
         </group>
     </open-files>
 </project-private>

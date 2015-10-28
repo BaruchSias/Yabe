@@ -1,14 +1,11 @@
 package models;
-
 /**
  *
  * @author Baruch
  */
-
 import java.util.*;
 import java.util.Date;
 import javax.persistence.*;
- 
 import play.db.jpa.*;
  
 @Entity
@@ -39,7 +36,7 @@ public class Post extends Model {
     
     @ManyToOne
     public User author;
-        public Object comments;
+    public Object comments;
     
     public Post(User author, String title, String content) {
         this.author = author;

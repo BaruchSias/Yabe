@@ -2,9 +2,7 @@ package controllers;
 
 import play.*;
 import play.mvc.*;
-
 import java.util.*;
-
 import models.*;
 import play.cache.*;
 import play.data.validation.*;
@@ -22,8 +20,10 @@ public class Application extends Controller {
 
     @Before
     static void addDefaults() {
-        renderArgs.put("blogTitle", Play.configuration.getProperty("blog.title"));
-        renderArgs.put("blogBaseline", Play.configuration.getProperty("blog.baseline"));
+        renderArgs.put("blogTitle",
+                Play.configuration.getProperty("blog.title"));
+        renderArgs.put("blogBaseline",
+                Play.configuration.getProperty("blog.baseline"));
     }
 
     public static void show(Long id) {
@@ -57,5 +57,10 @@ public class Application extends Controller {
         Cache.set(id, code, "10mn");
         renderBinary(captcha);
     }
+    
+    public static void listTagged(String tag) {
+    List<Post> posts = Post.findTaggedWith(tag);
+    render(tag, posts);
+}
 
 }
