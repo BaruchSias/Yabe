@@ -15,3 +15,6 @@ isAdmin=User is admin
 secure.username=Your email:
 secure.password=Your password:
 secure.signin=Log in now
+messages.en
+messages.nl
+messages.fr
