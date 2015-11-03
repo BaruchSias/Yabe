@@ -5,3 +5,5 @@ require:
     - play -> crud
 # Import the secure module
     - play -> secure
+# Import the cobertura module in application
+    - play -> cobertura 2.4
