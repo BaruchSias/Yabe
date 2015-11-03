@@ -8,6 +8,12 @@ GET     /posts/{<[0-9]+>id}                     Application.show
 POST    /posts/{postId}/comments                Application.postComment
 GET     /captcha                                Application.captcha
 GET     /posts/{tag}                            Application.listTagged
+GET     /admin/new                              Admin.form
+POST    /admin/new                              Admin.save
+GET     /admin/myPosts/{id}                     Admin.form
+GET     /admin/new                              Admin.form
+POST    /admin/myPosts/{id}                     Admin.save
+POST    /admin/new                              Admin.save
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
